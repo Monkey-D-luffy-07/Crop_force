@@ -1,4 +1,4 @@
-**AI driven Plant Disease detection**
+**AI driven Plant Disease detection** :
                                         The major concern in agriculture is food insecurity and labour-intensive tasks. The appearance of newer plant diseases can lead to severely low crop output and farm incomes. This can be solved by using our plant predictive model. This  project is mainly focused on creating a impact on agriculture sector by implementing the software that helps to detect the disease in plants known as plant  disease prediction and give suggestion based on the diseasse and recommend the treatments for the plant.
                 
 **Introductiom**           
