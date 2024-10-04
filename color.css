@@ -1,0 +1,221 @@
+div.form,div.form1,div.form2{
+    background-color: #ffffffc0;
+    border: 3px solid black; 
+    /* margin-bottom: 10%; */
+    margin-bottom:20cqmin;
+}
+#Contact_us,footer{
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+    margin-bottom: 20cqmin;
+}
+#OTP2_button,#Verify2_btn{  /*Button has grey color*/
+    width: 85px;
+    height: 25px;
+    font-size: 15px;
+    padding: 2px;
+    margin: 0;
+    background-color: white;
+    border-radius: 0px;
+    border-color: gray;
+}
+button {
+    font-size: 20px;
+    width: 125px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(30, 238, 30);
+    border-radius: 8px;
+}
+button:hover {
+    font-size: 20px;
+    width: 125px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(36, 255, 36);
+    border-radius: 7px;
+}
+button:active {
+    font-size: 20px;
+    width: 125px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgba(42, 206, 20, 0.925);
+    border-radius: 7px;
+}
+a {
+    text-decoration: none;
+    font-size: 19px;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: blue;
+}
+#reset_button {
+    font-size: 20px;
+    width: 175px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(30, 238, 30);
+    border-radius: 8px;
+}
+#reset_button:hover {
+    font-size: 20px;
+    width: 175px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(36, 255, 36);
+    border-radius: 7px;
+}
+#reset_button:active {
+    font-size: 20px;
+    width: 175px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgba(42, 206, 20, 0.925);
+    border-radius: 7px;
+}
+.otp_disp_msg p{
+    position: absolute;
+    top: 60px;
+    width: max-content;
+    left: 32%;
+    height: 30px;
+    background-color: white; 
+    border-radius: 5px;
+}
+.navbar nav{
+    background-color: #0399039c;
+    height: 40px;
+    width: max-content;
+    /* position: absolute; */
+    top: 15px;
+    right: 30px;
+    /* left: 15%; */
+    display: flex;
+    position: absolute;
+    /* justify-content: left; */
+    /* margin-left: 520px; */
+    border-spacing: 2px;
+}
+
+nav .nav_item{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 60px;
+    text-decoration: none;
+}
+nav .nav_item:hover{
+    /* background-color: #0ba1ca; */
+    background-color: #039903f5;
+    box-shadow: 10px 8px 59px 1px #019e01fd;
+    color: white;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+nav .nav_item:active{
+    box-shadow: 10px 8px 59px 1px #039903fb;
+    transform: scale(0.99);
+    color: white;
+}
+
+.check:checked {
+    background-color: #2196F3;
+    box-shadow: 0px 0px 2px 2px #2195f3ce;
+}
+nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 80px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+nav a:active{
+    /* box-shadow: 10px 8px 59px 1px #039903fb; */
+    transform: scale(0.99);
+    color: white;
+}
+h1{
+    color: white;
+    width: 590px;
+}
+#Contact_btn{
+    background-color: #EFEFEF;
+    font-size: 15px;
+    color: black;
+    height: 35px;
+    width: 130px;
+    padding: 3px;
+    border: 2px solid black;
+}
+#Sub_btn {
+    background-color: #EFEFEF;
+    font-size: 15px;
+    color: black;
+    height: 30px;
+    width: 80px;
+    padding: 3px;
+    border: 2px solid black;
+
+}
+#Contact_btn:active{
+    background-color: #ffffff;
+    font-size: 15px;
+    color: black;
+    height: 35px;
+    width: 130px;
+    padding: 3px;
+    border: 2px solid black;
+}
+
+input {
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}   
+.Team_members {
+    padding: 55px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, 0.45); */
+    backdrop-filter: blur(8px);
+    color: #224;
+    font: 1em/1.618 Inter, sans-serif;
+    text-align: center;
+    /* background-color: #f6f4f9c2; */
+}
+.Team_members:hover{
+    box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.45);
+}
+figure img {
+    border: 2px solid black;
+}
+footer{
+    position: sticky;
+    font-size: 20px;
+    color: black;
+    width: fit-content;
+    padding: 15px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+}
+.social_icon a,.social_icon a:hover,.social_icon a:active, .social_icon_footer a,.social_icon_footer a:hover,.social_icon_footer a:active{
+    color: black;
+}
+.top-padding {
+    background-color: #039903dc;
+    padding-top: 15px;
+}
+

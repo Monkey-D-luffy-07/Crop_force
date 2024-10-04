@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="color.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <script src="functions1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jQuery.js"></script>
+</head>
+<body>
+    <div class="top-padding"></div>
+    <div class="navbar">
+        <!-- <center> -->
+            <nav>
+                <a class="nav_item" href="index.html" title="Home">Home</a>
+                <a class="nav_item" href="#team" title="About us">About us</a>
+                <a class="nav_item" href="#Contact_us" title="Contact us">Contact Us</a>
+                <!-- <a href="login.html">Login or Sign Up</a> -->
+                <div class="tooltip">
+                    <a class="nav_item">Login or Sign Up</a>
+                    <div class="tooltiptext">
+                        <a href="login.html">Login</a>
+                        <a href="registration.html">Register</a>
+                    </div>
+                </div>
+            </nav>
+        <!-- </center> -->
+        <h1 class="top_text" style="cursor: default;margin-left: 25px;">Detect More <br> Grow More <br> Save More<span class="blinking-dots"> .</span></h1>
+<center>
+    <div style="margin-top: 200px;" id="team">
+    <h1 class="Team_member_title"><b>Team members</b></h1>
+    </div>
+</center>
+<center>
+    <div class="team_mem">
+        <div class="Team_members" id="Team_member_1">
+            <figure>
+                <img src="Jobin.jpg" alt="Jobin J">
+            </figure>
+            <pre>
+<b>Jobin J</b> 
+(Team leader)
+
+ML Developer
+<div class="social_icon">
+    <a href="" target="_blank"  rel="noopener noreferrer"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
+    <a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+    <a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a>
+    <a href="" target="_blank"  rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+</div>
+            </pre>
+        </div>
+        <div class="Team_members" id="Team_member_2">
+            <figure>
+                <img src="Allwin.jpg" alt="Allwin E K">
+            </figure>
+            <pre>
+<b>Allwin E K</b>
+
+
+Front End Developer
+<div class="social_icon">
+    <a href="https://www.facebook.com/ekallwin" target="_blank"  rel="noopener noreferrer"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
+    <a href="https://www.instagram.com/ekallwin" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+    <a href="https://www.twitter.com/ekallwin" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a>
+    <a href="https://www.linkedin.com/in/ekallwin" target="_blank"  rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+</div>
+            </pre>
+        </div>
+        <div class="Team_members" id="Team_member_3">
+            <figure>
+                <img src="Jinesh.jpg" alt="Jinesh Jesikar M S">
+            </figure>
+            <pre>
+<b>Jinesh Jesikar M S</b>
+
+
+Front End Developer
+<div class="social_icon">
+    <a href="" target="_blank"  rel="noopener noreferrer"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
+    <a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+    <a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a>
+    <a href="" target="_blank"  rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+</div>
+        </div>
+    </div>
+    <div>
+        
+    </div>
+</center>
+<center>
+    <div id="Contact_us" style="margin-top: 200px;">
+        <form action="" id="contact_form" class="contact_form" method="" onsubmit="contact_submit()">
+            <fieldset style="border: 1px solid black;">
+            <legend>Get in Touch</legend>
+            <table>
+                <tr>
+                    <td><label for="">Name</label></td>
+                    <td><input type="text" placeholder="Enter your name" title="Name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Phone number</label></td>
+                    <td><input type="text" name="" id="Contact_Phone_number" maxlength="10" pattern="[6-9]\d{9}"  placeholder="10 digits mobile number" title="Mobile number" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="email" name="" id="" placeholder="Enter your Email" title="Email address" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Your message</label></td>
+                    <td><textarea name="" id=""  rows="6" cols="22" style="resize: none;margin-left: 10px;" placeholder="Your message..." title="Message" required></textarea></td>
+                </tr>
+                <tr><td></td>
+                    <td><button id="Contact_btn" type="submit" style="margin-left: 10px;" title="Send message">Send message</button></td>
+                </tr>
+            </table>
+            <p id="submit_msg"></p>
+        </fieldset>
+        </form>
+    </div>
+</center>
+</body>
+<center><footer> 
+    <div class="foot_above">
+    <div class="foot">
+        <ul style="list-style-type: none;text-align: left;">
+            <thead><b>Contact Us</b></thead>
+            <li>Email:<a href="mailto:info@intelkpr.com">info@intelkpr.com</a></li>
+            <li>Phone: <a href="tel:+919876543210">+91 9876543210</a></li>
+            <li>Address:<a href="https://maps.app.goo.gl/fvUuu9WfqrtVir666"> <br> KPR Intel <br>Coimbatore</a></li>
+        </ul>
+    </div>
+    <div class="foot">
+        <form action="">
+        <label><b>Subscribe to our newsletter to stay updated!</b></label><br><br>
+        <label>News Letter</label>
+        <input type="email" name="" id="" placeholder="Enter your Email" title="Email address" required>
+        <button id="Sub_btn">Subscribe</button>
+        </form>
+    </div>
+    <div class="foot">
+        <label><b>Follow us on</b></label>
+        <div class="social_icon_footer">
+            <a href="" target="_blank"  rel="noopener noreferrer"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
+            <a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+            <a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a>
+            <a href="" target="_blank"  rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+        </div>
+    </div>
+</div>
+<div>&copy; 2024 Crop Force</div>
+</footer>
+</center>
+</html>
