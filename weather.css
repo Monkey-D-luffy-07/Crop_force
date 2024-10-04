@@ -1,0 +1,48 @@
+#weather {
+    background: #ffffffd8;
+    border-radius: 19px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin: 20px auto;
+    width: max-content;
+    font-size: 23px;
+}
+h2{
+    margin-top: 1px;
+}
+body{
+    background-image: url(Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.back_home{
+    max-width: 250px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.back_home a{
+    display: flex;
+}
+.back_home i{
+    margin-top: 25px;
+}
+.back_home h1{
+    font-size: 28px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.back_home
+a {
+    text-decoration: none;
+    font-size: 19px;
+}
+footer{
+    position: sticky;
+    font-size: 20px;
+    color: black;
+    background-color: #ffffff91;
+    width: fit-content;
+    padding: 5px;
+    margin-bottom: -5px;
+}

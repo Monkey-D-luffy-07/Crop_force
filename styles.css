@@ -4,6 +4,7 @@ body {
     background-attachment: fixed;
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 div.form,div.form1,div.form2,#Contact_us { /*Div and forms in reg, login, forgot*/
@@ -187,6 +188,18 @@ div .social_icon_footer{
     text-align: left;
 }
 footer div {
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.up_arrow {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    display: none; /* Hidden by default */
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.up_arrow i {
+    font-size: 3em;
 }

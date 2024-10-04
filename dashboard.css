@@ -1,0 +1,32 @@
+div h1{
+    color: white;
+    margin-left: 3%;
+}
+.items,.container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.go_home{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 27px;
+    /* margin: 15px; */
+    
+}
+.go_home:hover {
+    cursor: pointer;
+}
+.go_home h1{
+    margin-top: -28px;
+    margin-left: 40px;
+    font-size: 28px;
+}
+.go_home i{
+    margin-top: 25px;
+}

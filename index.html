@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Crop Force</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="color.css">
     <link rel="stylesheet" href="animations.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <script src="functions1.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="Favicon.png" type="image/x-icon">
     <script src="jQuery.js"></script>
 </head>
 <body>
@@ -18,7 +21,7 @@
         <!-- <center> -->
             <nav>
                 <a class="nav_item" href="index.html" title="Home">Home</a>
-                <a class="nav_item" href="#team" title="About us">About us</a>
+                <a class="nav_item" href="#About_us" title="About us">About us</a>
                 <a class="nav_item" href="#Contact_us" title="Contact us">Contact Us</a>
                 <!-- <a href="login.html">Login or Sign Up</a> -->
                 <div class="tooltip">
@@ -29,12 +32,24 @@
                     </div>
                 </div>
             </nav>
-        <!-- </center> -->
         <h1 class="top_text" style="cursor: default;margin-left: 25px;">Detect More <br> Grow More <br> Save More<span class="blinking-dots"> .</span></h1>
+        <center>
+            <div>
+                <button id="get_started">Get Started</button>
+            </div>
+            </center>
+        <div class="About_us" id="About_us">
+            <h2><u>About Us</u></h2>
+            <h3><span style="margin-left: 150px;"></span>Unlock the future of farming with our AI-powered solution. Save time, increase yields, and detect plant diseases with 99% accuracy — before they become a problem. Ready to transform your crops and maximize your profits? Try it today and see instant results!</h3>
+        </div>
+        <div class="up_arrow" id="upArrow" >
+            <i class="fa-solid fa-circle-arrow-up fa-2xl" style="color: #0fca02;"></i>
+         </div>
 <center>
     <div style="margin-top: 200px;" id="team">
     <h1 class="Team_member_title"><b>Team members</b></h1>
     </div>
+    
 </center>
 <center>
     <div class="team_mem">
@@ -89,9 +104,6 @@ Front End Developer
 </div>
         </div>
     </div>
-    <div>
-        
-    </div>
 </center>
 <center>
     <div id="Contact_us" style="margin-top: 200px;">
@@ -138,8 +150,8 @@ Front End Developer
             <li>Address:<a href="https://maps.app.goo.gl/fvUuu9WfqrtVir666"> <br> KPR Intel <br>Coimbatore</a></li>
         </ul>
     </div>
-    <div class="foot">
-        <form action="">
+    <div class="foot"> 
+        <form action="" id="Sub_form" onsubmit="Sub_Alert()">
         <label><b>Subscribe to our newsletter to stay updated!</b></label><br><br>
         <label>News Letter</label>
         <input type="email" name="" id="" placeholder="Enter your Email" title="Email address" required>
