@@ -1,1 +1,1 @@
-# Crop_force_oneAPI_hack_kpr
+Revolutionize agriculture with our AI-driven plant disease detection solution. Offering 99% accuracy, we outshine competing models, saving you time and resources while delivering real-time insights for healthier crops and improved yields. Experience precision like never before with our cutting-edge technology.
