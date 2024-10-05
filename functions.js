@@ -63,9 +63,14 @@ function dashboard_open(event) {
         window.location.href = "dashboard.html"; 
     }, 500); // Redirects after 1 second
 }
-function submit_alert(){
-    alert(`Successfully Registered !`);
-    window.location.href="login.html";
+function submit_Alert(){
+    alert(`Successfully Registered! Please Login`);
+}
+function Login_open(event) {
+    event.preventDefault(); 
+    setTimeout(function() {
+        window.location.href = "login.html"; 
+    }, 500); // Redirects after 1 second
 }
 function reset_alert(){
     alert(`Your password has been changed! Please Login`);
