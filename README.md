@@ -15,3 +15,13 @@
 **Challenges and Future Works**          
                 The challenges include High-quality and diverse datasets are required to train a detection model and effectively classify diseases. The model may struggle with differences in seed appearance induced by different lighting conditions or image quality. and needed continuous model updates. The project can improve crop productivity, increase farm products, and solve the disease by practicing more organic methods rather than using pesticides, which indirectly affect soil health. The future work involves importing a larger dataset for seed detection and for continuous learning and regular updates to the model based on new data and Add forums and chat support to help users get the most out of the application. 
 
+Requirements:
+
+!pip install torchsummary
+
+!pip install Flask
+
+
+
+
+
