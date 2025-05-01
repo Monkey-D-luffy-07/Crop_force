@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 model = torch.load('Downloads\model.onnx')
 model.eval()
-t
+
 transform = transforms.Compose([
     transforms.Resize((256, 256)),
     transforms.ToTensor(),
