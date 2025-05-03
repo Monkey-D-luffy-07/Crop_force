@@ -124,3 +124,17 @@ function validate_OTP(){
         confirm_passsword.disabled=true;
     }
 }
+document.addEventListener("DOMContentLoaded",function(){
+    const tools_toggle=document.getElementById("tools_toggle");
+    const tools=document.getElementById("tools");
+    tools_toggle.onclick=function(){
+        if(tools.style.opacity=="1"){
+            tools.style.opacity="0";
+            tools.style.right="-100%";
+        }
+        else{
+            tools.style.opacity="1";
+            tools.style.right="15%";
+        }
+    }
+})

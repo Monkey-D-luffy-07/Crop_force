@@ -1,4 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html,body{
+    font-family:'Poppins',Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x:hidden;
+    scroll-behavior:smooth;
+}
+/*
 .Team_members,.Team_member_title {
     opacity: 0;
     transition: opacity 4s ease;
@@ -13,11 +19,11 @@
     opacity: 0;
     direction: rtl;
 }
-
+*/
 
 
 /* Apply the fade-in animation to .Team_members */
-@keyframes fadeIn1 {
+/*@keyframes fadeIn1 {
     from {
         opacity: 0;
     }
@@ -25,6 +31,7 @@
         opacity: 1;
     }
 }
+*/
 .form,.form1,.form2 {
     opacity: 0;  
     animation: fadeIn1 0.5s ease-in forwards;
@@ -37,12 +44,14 @@
         transform: translateX(0);
     }
 }
+
 .top_text {
+    color:white;
     opacity: 0;
     transform: translateX(-50%);
     animation: top_text_ani 1.5s ease-out forwards;
 }
-
+/*
 .Team_members:hover {
     transform: scale(1.09);
     transition: 0.6s;
@@ -56,13 +65,31 @@ div .social_icon i:active, div .social_icon_footer i:active {
     transform: scale(0.9);
     transition: 0.5s;
 }
-
+*/
 
 
 /* Tooltip container */
 .tooltip {
     position: relative;
-    display: inline-block;
+    width:100%;
+    text-align:center;
+    align-items: center;
+    display:flex;
+    justify-content:center;
+}
+.tooltip .nav_item{
+    border-radius:40px;
+    padding:2% 15%;
+    font-weight:bold;
+    font-size:medium;
+    margin-left:12%;
+    background-color:white;
+    color:white;
+    background-color:rgb(4, 189, 4);
+    box-shadow:0px 0px 1px rgba(4,189,4,0.9);
+}
+.tooltip .nav_item:hover{
+    color:white;
 }
 
 /* Tooltip text (hidden by default) */
@@ -70,23 +97,51 @@ div .social_icon i:active, div .social_icon_footer i:active {
     /* visibility: hidden; */
     width: 205px;
     height: max-content;
-    background-color: rgba(0, 0, 0, 0.74);
-    color: #fff;
+    background-color:white;
+    box-shadow:0px 0px 5px rgba(0,0,0,0.3);
     text-align: center;
     border-radius: 6px;
     padding: 15px;
-    text-align: center;
     position: absolute;
-    z-index: 1;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+    justify-content:center;
+    align-items: center;
+    z-index: 1000;
     bottom: -60px; /* Adjust for spacing below the text */
-    left: 50%;
+    right:-100%;
     top: 110%;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    opacity:0;
+    transition:0.4s ease;
 }
-
+.tooltip .tooltiptext .a1{
+    background-color:white;
+    padding:4% 0%;
+    width:100%;
+    color:black;
+    border-radius:40px;
+    font-family:'Poppins',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    box-shadow:0px 0px 1px rgba(0,0,0,0.9);
+    font-size:small;
+}
+.tooltip .tooltiptext .a2{
+    background-color:rgb(4, 189, 4);
+    padding:4% 0%;
+    width:100%;
+    border-radius:40px;
+    color:white;
+    font-family:'Poppins',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size:small;
+}
+.tooltip .tooltiptext p{
+    font-size:small;
+    width:95%;
+}
 /* Show tooltip text on hover */
+/*
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
@@ -95,6 +150,7 @@ div .social_icon i:active, div .social_icon_footer i:active {
     visibility: visible;
     opacity: 1;
 }
+*/
 
 .back_home:hover{
     transform: scale(1.03);

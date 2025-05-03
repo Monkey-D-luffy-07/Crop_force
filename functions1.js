@@ -3,7 +3,7 @@ function contact_submit(){
     window.location.href="index.html#Contact_us";
     document.getElementById("contact_form").reset();
 }
-
+/*
 document.addEventListener('scroll', function() {
     const elements = document.querySelectorAll('.Team_member_title, .Team_members');
         
@@ -19,7 +19,7 @@ document.addEventListener('scroll', function() {
         }
     });
 });
-
+*/
 
 
 window.onload = function() {
