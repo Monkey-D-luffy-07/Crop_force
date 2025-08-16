@@ -2,7 +2,7 @@
                                        
 The major concern in agriculture is food insecurity and labour-intensive tasks. The appearance of newer plant diseases can lead to severely low crop output and farm incomes. This can be solved by using our plant predictive model. This  project is mainly focused on creating a impact on agriculture sector by implementing the software that helps to detect the disease in plants known as plant  disease prediction and give suggestion based on the diseasse and recommend the treatments for the plant.
                 
-**Introduction :**📃           
+**Introduction**:📃           
             Our software works very easy and efficient way , just the user can take photos of the affected plants and upload to our web or app services and then the model predict the affected part of the leaf and identify the disease with almost greater precision rates . The affected disease is classified and tell the farmer suggestive and recommend ways that a plant can be cured . The same procedure ways for the seed detection .
                 
 **Software work:**       
