@@ -13,7 +13,7 @@ The major concern in agriculture is food insecurity and labour-intensive tasks. 
                 This can bring positive changes to agriculture by introducing more sustainable practices and gaining more knowledge about disease, which can be prevented in future times. Our software can be used in real-time identification of disease in agriculture. It also helps the researchers to know more about the diseases. This can bring  changes to mainly farmers and researchers. The farmer can identify the disease and provide immediate help to the plants, which can promote good quality of crop yield. Farmers, stakeholders, researchers, and agronomists practice and manage agriculture, including crop production, soil management, and high-quality seed selection. This software can be implemented using a deep learning framework such as Python. 
 
 
-**Challenges and Future Works:**💪         
+**Challenges and Future Works**:💪         
                 The challenges include High-quality and diverse datasets are required to train a detection model and effectively classify diseases. The model may struggle with differences in seed appearance induced by different lighting conditions or image quality. and needed continuous model updates. The project can improve crop productivity, increase farm products, and solve the disease by practicing more organic methods rather than using pesticides, which indirectly affect soil health. The future work involves importing a larger dataset for seed detection and for continuous learning and regular updates to the model based on new data and Add forums and chat support to help users get the most out of the application. 
 
 **Requirements**:
